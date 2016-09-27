@@ -1,0 +1,48 @@
+Last login: Sun Sep 18 22:08:45 on ttys001
+dhcp-hol-4394:~ shwong$ cd Desktop/
+dhcp-hol-4394:Desktop shwong$ ls
+Andy Dufresne Hope.png
+Big Red Bell Driving School.webloc
+Cities.jpg
+Endearing Mother.png
+My Projects.webloc
+Prepare for your road test | New York State DMV.webloc
+Projects
+Spanish
+You Are Not So Smart_ Why You Have Too Many Friends on Facebook, Why Your Memory Is Mostly Fiction, and 46 Other Ways You're Deluding Yourself (Unabridged).aax
+🌍.png
+学校
+お仕事
+サイト
+dhcp-hol-4394:Desktop shwong$ cd Projects/
+dhcp-hol-4394:Projects shwong$ ls
+a3		assignment01	assignment02
+dhcp-hol-4394:Projects shwong$ git clone https://skh68fa16@bitbucket.org/skh68fa16/assignment03.git
+Cloning into 'assignment03'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+dhcp-hol-4394:Projects shwong$ ls
+a3		assignment01	assignment02	assignment03
+dhcp-hol-4394:Projects shwong$ cd assignment0
+assignment01/ assignment02/ assignment03/ 
+dhcp-hol-4394:Projects shwong$ cd assignment03
+dhcp-hol-4394:assignment03 shwong$ ls
+css		index.html	vischeck
+dhcp-hol-4394:assignment03 shwong$ git add .
+\dhcp-hol-4394:assignment03 shwong$ git commit -m "actual a3"
+[master (root-commit) ac13fa6] actual a3
+ 5 files changed, 98 insertions(+)
+ create mode 100644 css/style.css
+ create mode 100644 index.html
+ create mode 100644 vischeck/deuteranope.jpg
+ create mode 100644 vischeck/protanope.jpg
+ create mode 100644 vischeck/tritanope.jpg
+dhcp-hol-4394:assignment03 shwong$ git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 18.53 KiB | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://skh68fa16@bitbucket.org/skh68fa16/assignment03.git
+ * [new branch]      master -> master
+dhcp-hol-4394:assignment03 shwong$ 
