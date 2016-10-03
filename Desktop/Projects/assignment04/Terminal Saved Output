@@ -1,0 +1,43 @@
+Last login: Tue Sep 27 16:51:03 on ttys000
+dhcp-hol-3336:~ shwong$ pwd
+/Users/shwong
+dhcp-hol-3336:~ shwong$ ls
+Applications	Downloads	Library		Pictures	Simbio
+Desktop		Dropbox		Movies		Public		assignment04
+Documents	Google Drive	Music		SimUText
+dhcp-hol-3336:~ shwong$ cd desktop/
+dhcp-hol-3336:desktop shwong$ cd projects/
+dhcp-hol-3336:projects shwong$ ls
+assignment01	assignment02	assignment03	assignment04
+dhcp-hol-3336:projects shwong$ cd assignment04/
+dhcp-hol-3336:assignment04 shwong$ ls
+css		images		index.html	index2.html	vischeck
+dhcp-hol-3336:assignment04 shwong$ git add .
+dhcp-hol-3336:assignment04 shwong$ git commit -m "actual files"
+[master (root-commit) 602e11c] actual files
+ 16 files changed, 218 insertions(+)
+ create mode 100644 css/.Rhistory
+ create mode 100644 css/style.css
+ create mode 100644 images/72c099_c0cfe63b40814f4b885cb49fad899f35.png_srz_609_323_85_22_0.50_1.20_0.png
+ create mode 100644 images/Chocolate-Chip-Cookies.png
+ create mode 100755 images/arrow_ad.png
+ create mode 100755 images/bow_ad.png
+ create mode 100644 images/mcdonalds-Chocolate-Chip-Cookie.png
+ create mode 100644 images/rivercitysugarcookie.png
+ create mode 100644 index.html
+ create mode 100644 index2.html
+ create mode 100644 vischeck/deuteranope.png
+ create mode 100644 vischeck/deuteranope2.png
+ create mode 100644 vischeck/protanope.png
+ create mode 100644 vischeck/protanope2.png
+ create mode 100644 vischeck/tritanope.png
+ create mode 100644 vischeck/tritanope2.png
+dhcp-hol-3336:assignment04 shwong$ git push
+Counting objects: 21, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (21/21), 1.98 MiB | 1.82 MiB/s, done.
+Total 21 (delta 1), reused 0 (delta 0)
+To https://skh68fa16@bitbucket.org/skh68fa16/assignment04.git
+ * [new branch]      master -> master
+dhcp-hol-3336:assignment04 shwong$ 
