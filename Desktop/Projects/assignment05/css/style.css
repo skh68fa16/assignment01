@@ -11,7 +11,7 @@ body {
 .banner {
 	font-family: "Times New Roman", Georgia, Serif;
 	margin: auto;
-	padding: auto;
+	padding-top: 0;
 	width: 70%;
 	text-align: center;
 }
@@ -21,26 +21,26 @@ body {
 	float: none;
 	width: 70%;
 	margin: auto;
-	padding: auto;
+	padding-top: 0;
 }
 
 #applepie {
 	width: 100%;
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
 	#content {
 		float: none;
 		width: 70%;
 		margin: auto;
-		padding: auto;
+		padding-top: 0;
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 769px) and (max-width: 992px) {
 	#apple {
 		margin: auto;
-		padding: auto;
+		padding-top: 0;
 		max-width: 80%;
 	}
 	#content {
@@ -49,14 +49,14 @@ body {
 		float: none;
 		width: 70%;
 		margin: auto;
-		padding: auto;
+		padding-top: 0;
 	}
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
 	#apple {
 		margin: auto;
-		padding: auto;
+		padding-top: 0;
 		max-width: 80%;
 	}
 	#content {
@@ -65,15 +65,15 @@ body {
 		float: none;
 		width: 70%;
 		margin: auto;
-		padding: auto;
+		padding-top: 0;
 	}
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 0px) and (max-width: 480px) {
 	#apple {
 		display: none;
 		margin: auto;
-		padding: auto;
+		padding-top: 0;
 	}
 	#content {
 		float: none;
@@ -81,7 +81,7 @@ body {
 		float: none;
 		width: 70%;
 		margin: auto;
-		padding: auto;
+		padding-top: 0;
 	}
 }
 
