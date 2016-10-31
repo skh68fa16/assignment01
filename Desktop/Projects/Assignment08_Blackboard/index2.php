@@ -2,23 +2,15 @@
 <html lang="en">
 
 	<head>
-		<title> Assignment 04 </title>
+		<title> Assignment 08 </title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>	
-		
-	<body id="index2">
-		<div class="content">
-			<div class="nav_bar"> 		
-				<ul class="links">
-					<li> <a href="index.html" target="_blank"> Bake Delightful Sugar Cookies Instead </a> </li>
-					<li> <a href="https://insomniacookies.com/" target="_blank"> Insomnia Cookies </a> </li>
-					<li> <a href="http://www.spunkmeyer.com/Home/Homepage/" target="_blank"> Otis Spunkmeyer </a> </li>
-					<li> <a href="http://ithacabakery.com/" target="_blank"> Ithaca Bakery </a> </li>
-				</ul>
-			</div>
+				
+	<body id="index">		
 
-			<div class="spacer">
-			</div>
+		<?php
+			include 'includes/header.html'
+		?>
 
 			<div id="top">
 				<h1 id="big_header">  How to Bake Tasty Chocolate Chip Cookies </h1>
@@ -27,11 +19,16 @@
 			<div id="image">
 				<h2> Make dough. Put into oven. Eat. </h2>
 				<!-- Taken from http://www1.development.mcdonalds.com/GMA/gma/global-dev/test/images/products/540/mcdonalds-Chocolate-Chip-Cookie.png -->
-				<figure>
+				<figure id="cookieimage">
 					<img src="images/chocochipcookie.png" alt="chocolatechipcookie">
 					<figcaption id="caption"> A Chocolate Chip Cookie </figcaption>
 				</figure>
 			</div>	
+	
+			<div id="ad_column">
+	        	<!-- image created by Steve Paling -->
+	        	<img class="side_ad" src="images/bow_ad.png" alt="buy our bows">
+	    	</div> <!-- end of ad_column div -->
 
 			<div>
 				<figure>
@@ -62,14 +59,11 @@
 			</div>
 		</div>	
 
+		<div>
 		<p class="filler"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
 
 		<p class="filler"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
-
-		<div id="ad_column">
-        	<!-- image created by Steve Paling -->
-        	<img class="side_ad" src="images/bow_ad.png" alt="buy our bows">
-    	</div> <!-- end of ad_column div -->
+		</div>
 
     </body>
     
